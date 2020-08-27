@@ -6,7 +6,7 @@ namespace DotNetCore.Service.WritingToQueue
 {
     class Program
     {
-        static QueueClient queueClient = new QueueClient("Endpoint=sb://service-bus-poc-1.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Su++fkdVAjazBG89+TXa05ruzEoTxqOAdyl6FS9CeBc=", "msgqueue");
+        static QueueClient queueClient = new QueueClient("your-service-bus-namespace", "your-queue-name");
         public static void Main(string[] args)
         {
             MainAsync().GetAwaiter().GetResult();

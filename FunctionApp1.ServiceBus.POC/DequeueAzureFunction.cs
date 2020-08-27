@@ -7,6 +7,8 @@ using Microsoft.Extensions.Logging;
 
 namespace DequeueAzureFunction.ServiceBus.POC
 {
+    //Source
+    //https://github.com/MicrosoftDocs/mslearn-connect-services-together/tree/master/implement-message-workflows-with-service-bus/src/final
     public static class DequeueAzureFunction
     {
         static QueueClient queueClient = new QueueClient("your-service-bus-namespace", "your-queue-name");
