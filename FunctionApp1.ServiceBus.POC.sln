@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DequeueAzureFunction.ServiceBus.POC", "FunctionApp1.ServiceBus.POC\DequeueAzureFunction.ServiceBus.POC.csproj", "{2B02467F-CE8E-4F50-A0C1-B96A392121F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Service.WritingToQueue", "DotNetCore.Service.WritingToQueue\DotNetCore.Service.WritingToQueue.csproj", "{B69C6A0D-7DBB-49AE-ABA1-B02AED067EAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B02467F-CE8E-4F50-A0C1-B96A392121F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B02467F-CE8E-4F50-A0C1-B96A392121F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B02467F-CE8E-4F50-A0C1-B96A392121F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B02467F-CE8E-4F50-A0C1-B96A392121F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69C6A0D-7DBB-49AE-ABA1-B02AED067EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69C6A0D-7DBB-49AE-ABA1-B02AED067EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69C6A0D-7DBB-49AE-ABA1-B02AED067EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69C6A0D-7DBB-49AE-ABA1-B02AED067EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C4BFD0C-0919-4D5F-BE61-85E8A0F2BB4F}
+	EndGlobalSection
+EndGlobal
